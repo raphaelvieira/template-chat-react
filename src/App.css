@@ -1,0 +1,98 @@
+.header {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 93.75%;
+  background: #4a90e2;
+}
+
+.text {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  float: left;
+  margin-left: 10px;
+}
+
+.profile {
+  color: #fff;
+  float: right;
+  margin-right: 10px;
+}
+
+.containerMaster {
+  position: absolute;
+  left: 14.65%;
+  right: 14.55%;
+  top: 6.84%;
+  bottom: -2.25%;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  box-sizing: border-box;
+}
+
+.post {
+  border-radius: 16px;
+  border: 6px solid #f00;
+  min-height: 100px;
+}
+
+.comment {
+  margin-left: 5%;
+  box-sizing: border-box;
+  border: 6px solid #00f;
+  min-height: 100px;
+}
+
+/* Chat containers */
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+  padding-left: 50px;
+}
+
+/* Clear floats */
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
